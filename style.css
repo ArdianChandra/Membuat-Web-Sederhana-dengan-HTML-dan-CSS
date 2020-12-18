@@ -1,0 +1,86 @@
+/* write your code here */
+body{
+    background-color: black;
+    padding-top: 10px;
+    padding-left: 10px;
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    /* border-style: solid;
+    border-color: white; */
+}
+
+.hero{
+    text-align: center;
+    margin: 50px;
+    padding-left: 75px;
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.desc {
+    /* margin: 75px; */
+    text-align: center;
+    position: relative;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    display: inline;
+    text-align: right;
+    float: right;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    /* background-color: #dddddd; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+  }
+
+li a:hover {
+    background-color: rgb(68, 78, 209);
+    color: whitesmoke;
+}
+
+.agi{
+    font-size: 35px;
+}
+.agi:hover{
+    color:#387734;
+}
+
+.str{
+    font-size: 35px;
+}
+.str:hover{
+    color:#E92424;
+}
+
+.int{
+    font-size: 35px;
+}
+.int:hover{
+    color:#1985AC;
+}
